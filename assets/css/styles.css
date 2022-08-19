@@ -13,6 +13,7 @@
   --username-color: hsla(30, 11%, 4%, 0.164);
   --bg-color: #eae0d5;
   --links-bg-color: #22333b;
+  --links-box-shadow: 0px 0px 15px 5px rgba(34,51,59,0.2);
   --links-hover-color: #22333ba9;
   --links-text-color: #eae0d5;
   --footer: #383838;
@@ -84,6 +85,7 @@ main {
   text-align: center;
   border-radius: 6px;
   background-color: var(--links-bg-color);
+  box-shadow: var(--links-box-shadow);
   color: var(--links-text-color);
   font-size: 14px;
   font-weight: 700;
