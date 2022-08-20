@@ -8,14 +8,17 @@
   --username-fw: 400;
   --social-fw: 700;
 
+  /* colors */
+
   --img-border-color: #22333b;
   --name-color: hsla(30, 11%, 4%, 0.863);
-  --username-color: hsla(30, 11%, 4%, 0.164);
+  --username-color: hsla(30, 11%, 4%, 0.863);
   --bg-color: #eae0d5;
   --links-bg-color: #22333b;
-  --links-box-shadow: 0px 0px 15px 5px rgba(34,51,59,0.2);
+  --links-box-shadow: 0px 0px 5px 5px rgba(34,51,59,0.2);
   --links-hover-color: #22333ba9;
   --links-text-color: #eae0d5;
+  --btn-toggle-bg: rgba(34,51,59,0.2);
   --footer: #383838;
 }
 
@@ -33,11 +36,15 @@
   --img-border-color: #eae0d5;
   --name-color: #eae0d5;
   --username-color: #eae0d5;
-  --bg-color: #22333b;
+  --username-dark-hover: #eae0d5;
+  --bg-color: hsla(30, 11%, 4%, 0.863);
   --links-bg-color: #eae0d5;
-  --links-box-shadow: 0px 0px 15px 5px hsla(31, 33%, 88%, 0.2);
+  --links-box-shadow: 0px 0px 5px 5px hsla(33, 32%, 88%, 0.055);
   --links-hover-color: hsla(31, 33%, 88%, 0.2);
-  --links-text-color: #22333b;;
+  --links-text-color: #22333b;
+  --btn-toggle-bg: ;
+  --btn-toggle-text: #eae0d5;
+  --btn-toggle-border: #eae0d5;
   --footer: #eae0d5;
 }
 
@@ -84,6 +91,7 @@ main {
 
 .info > span {
   font-family: 'Roboto Mono', monospace;
+  color: var(--username-color);
 }
 
 .links {
@@ -107,6 +115,7 @@ a {
 }
 
 a:hover {
+  color: var(--username-dark-hover);
   background-color: var(--links-hover-color);
   width: 95%;
   align-self: center;
@@ -118,4 +127,20 @@ footer {
   text-align: center;
   font-size: 0.75rem;
   color: var(--footer);
+}
+
+#btn-toggle {
+  padding: 10px;
+  color: var(--btn-toggle-text);
+  background-color: var(--btn-toggle-bg);
+  border: 0.8px solid var(--btn-toggle-border);
+  border-radius: 6px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.75rem;
+  font-weight: var(--social-fw);
+  text-transform: uppercase;
+}
+
+#btn-toggle:hover {
+  cursor: pointer;
 }
