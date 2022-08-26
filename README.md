@@ -1,2 +1,2 @@
 # rocketseat-rocket-links
- Página de links - Rockseat
+ Resolução do desafio de uma página de links da Rocketseat
