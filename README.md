@@ -1,2 +1,4 @@
 # rocketseat-rocket-links
- Resolução do desafio de uma página de links da Rocketseat
+ Desafio da Rocketseat sobre uma página de links
+
+#### Live site: https://rocketlinks-nathalya-ricci.netlify.app/
