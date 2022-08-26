@@ -116,7 +116,6 @@ a {
 a:hover {
   color: var(--username-dark-hover);
   background-color: var(--links-hover-color);
-  width: 95%;
   align-self: center;
   transition: all 0.5s ease-in-out;
 }
