@@ -88,7 +88,7 @@ main {
   color: var(--name-color);
 }
 
-.info > span {
+.info > p {
   font-family: 'Roboto Mono', monospace;
   color: var(--username-color);
 }
