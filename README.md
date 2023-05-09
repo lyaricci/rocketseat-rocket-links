@@ -16,4 +16,4 @@ Site para concentrar múltiplos links, com versões em modo claro e escuro imple
 - JavaScript
 
 ## 👀 Live Preview
-https://nathalya-ricci.github.io/rocketseat-rocket-links/
+https://lyaricci.github.io/rocketseat-rocket-links/
